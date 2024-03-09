@@ -182,6 +182,7 @@ class EditTaskDialog(QDialog):
         self.setLayout(self.layout)
 
 
+#Запуск приложения
 app = QApplication(sys.argv)
 window = TodoApp()
 window.show()
